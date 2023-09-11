@@ -3,44 +3,44 @@
 
 using namespace std;
 
-int sum(double num1, double num2)
+int sum(long double num1, long double num2)
 {
-    double result;
+    long double result;
     result = num1 + num2;
     return result;
 }
 
-int subtract(double num1, double num2)
+int subtract(long double num1, long double num2)
 {
-    double result;
+    long double result;
     result = num1 - num2;
     return result;
 }
 
-int multiply(double num1, double num2)
+int multiply(long double num1, long double num2)
 {
-    double result;
+    long double result;
     result = num1 * num2;
     return result;
 }
 
-int divide(double num1, double num2)
+int divide(long double num1, long double num2)
 {
-    double result;
+    long double result;
     result = num1 / num2;
     return result;
 }
 
-int expo(double num1, double num2)
+int expo(long double num1, long double num2)
 {
-    double result;
+    long double result;
     result = pow(num1, num2);
     return result;
 }
 
-int root(double num1, double num2)
+int root(long double num1, long double num2)
 {
-    double result;
+    long double result;
     result = pow(num1, 1 / num2);
     return result;
 }
@@ -52,7 +52,7 @@ int main()
     cout << "For root calculations: num1 ^ 1/num2\n"
          << endl;
 
-    double num1, num2;
+    long double num1, num2;
     string operation;
     cout << "Enter first number (num1): ";
     cin >> num1;
