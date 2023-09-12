@@ -5,6 +5,10 @@ using namespace std;
 
 int main()
 {
-    cout << pow(76, 89) << endl;
-    return 0;
+    int index = 6;
+    do
+    {
+        cout << index << endl;
+        index++;
+    }while (index <= 5);
 }
