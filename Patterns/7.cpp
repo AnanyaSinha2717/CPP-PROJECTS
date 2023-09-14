@@ -1,3 +1,7 @@
+// 1
+// 2 3
+// 4 5 6      (n = 3)
+
 #include <iostream>
 #include <cmath>
 
