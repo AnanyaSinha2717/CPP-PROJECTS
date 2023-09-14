@@ -11,10 +11,10 @@ int main()
     cin >> n;
     cout << endl;
 
-    while (i <= n)
+    while (i <= n) // creating columns
     {
         int j = 1;
-        while (j <= n)
+        while (j <= n) // creating a row
         {
             cout << "* ";
             j++;
