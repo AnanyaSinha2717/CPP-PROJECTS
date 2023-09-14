@@ -1,3 +1,8 @@
+// asterik equilateral triangle
+// *
+// * *
+// * * *   (n = 3)
+
 #include <iostream>
 #include <cmath>
 

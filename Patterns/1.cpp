@@ -1,3 +1,7 @@
+// asterik square
+// * *
+// * *     (n = 2) 
+
 #include <iostream>
 #include <cmath>
 
