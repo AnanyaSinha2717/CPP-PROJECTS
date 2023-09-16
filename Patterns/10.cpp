@@ -1,4 +1,4 @@
-// square matrix of alphabets
+// square matrix of alphabets with alphabets succeeding in a row
 // ASCII 65 - 90 for A - Z
 
 #include <iostream>
