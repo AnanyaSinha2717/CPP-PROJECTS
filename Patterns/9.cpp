@@ -1,6 +1,5 @@
-// 1
-// 2 1
-// 3 2 1     (n = 3)
+// square matrix of alphabets
+// ASCII 65 - 90 for A - Z
 
 #include <iostream>
 #include <cmath>
@@ -18,11 +17,12 @@ int main()
 
     while (i <= n)
     {
-        int j = i;
-        while (j >= 1)
+        int j = 1;
+        char value = 64 + i;
+        while (j <= n)
         {
-            cout << j << " ";
-            j--;
+            cout << value << " ";
+            j++;
         }
         cout << endl;
         i++;
