@@ -5,10 +5,20 @@ using namespace std;
 
 int main()
 {
-    int index = 6;
-    do
+    // int index = 6;
+    // do
+    // {
+    //     cout << index << endl;
+    //     index++;
+    // }while (index <= 5);
+
+    for (int i = 0; i <= 15; i += 2)
     {
-        cout << index << endl;
-        index++;
-    }while (index <= 5);
+        cout << i << " " << endl;
+        if (i & 1)
+        {
+            continue;
+        }
+        i++;
+    }
 }
