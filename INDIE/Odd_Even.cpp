@@ -21,9 +21,15 @@ bool isEven(int num)
 int main()
 {
     int a;
-    cout << "Enter the number you want to check: ";
+    cout << "Enter a number: ";
     cin >> a;
-    int check = isEven(a);
-    cout << check << endl;
+    if (isEven(a))
+    {
+        cout << a << " is Even" << endl;
+    }
+    else
+    {
+        cout << a << " is Odd" << endl;
+    }
     return 0;
 }
