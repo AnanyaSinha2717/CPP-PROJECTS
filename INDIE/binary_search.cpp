@@ -6,8 +6,9 @@ using namespace std;
 int binarySearch(int arr[], int size, int key)
 {
     int start = 0, end = size - 1;
-    int mid = (start + end) / 2;
-    while (start <= end)
+    int mid = start + (end - start) / 2;
+
+    while (start < end)
     {
         if (arr[mid] == key)
         {
@@ -21,7 +22,7 @@ int binarySearch(int arr[], int size, int key)
         {
             start = mid + 1;
         }
-        mid = (start+end)/2;
+        mid = start + (end - start) / 2;
     }
     return -1;
 }
@@ -34,6 +35,7 @@ int main()
     int index = binarySearch(even, 6, 6);
     int index2 = binarySearch(odd, 5, 9);
 
-    cout << "in even array = " << index << ", " << "in odd array = " << index2 << endl;
+    cout << "in even array = " << index << ", "
+         << "in odd array = " << index2 << endl;
     return 0;
 }
