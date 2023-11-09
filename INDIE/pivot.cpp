@@ -20,7 +20,7 @@ int pivotIndex(int arr[], int n){
 }
 
 int main(){
-    int arr[5] = {7,8,1,2,3};
+    int arr[5] = {3,8,10,17,1};
 
     int pivot = pivotIndex(arr, 5);
     cout << "Pivot index is " << pivot << endl;
