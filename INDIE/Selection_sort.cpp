@@ -30,7 +30,7 @@ int main()
         int minIndex = i;
         for (int j = i + 1; j < size; j++)
         {
-            if (arr[j] < arr[i])
+            if (arr[j] < arr[minIndex])
             {
                 minIndex = j;
             }
