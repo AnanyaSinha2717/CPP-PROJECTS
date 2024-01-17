@@ -13,14 +13,18 @@ int size(char s[])
     return count;
 }
 
-int checkPalindrome(char s[], int n){
-    int b = 0, e = n-1;
+int checkPalindrome(char s[], int n)
+{
+    int b = 0, e = n - 1;
 
-    while(b<e){
-        if(s[b] != s[e]){
+    while (b < e)
+    {
+        if (s[b] != s[e])
+        {
             return 0;
         }
-        else{
+        else
+        {
             b++;
             e--;
         }
@@ -35,10 +39,12 @@ int main()
 
     int n = size(s);
 
-    if (checkPalindrome(s, n)){
+    if (checkPalindrome(s, n))
+    {
         cout << "palindrome" << endl;
     }
-    else{
+    else
+    {
         cout << "not palindrome" << endl;
     }
 
