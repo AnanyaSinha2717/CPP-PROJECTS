@@ -31,16 +31,20 @@ int main()
 
     cout << '\n';
     int row = 1;
+    int max = 0;
     for (int i = 0; i < r; i++)
     {
         int sum = 0;
         for (int j = 0; j < c; j++)
         {
             sum += arr[i][j];
+            if(sum > max) max = sum;
         }
         cout << row << " row sum = " << sum << '\n';
         row++;
     }
+
+    cout << "\nMax sum is = " << max << '\n';
 
     return 0;
 }
